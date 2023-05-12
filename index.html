@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .body{
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        .main{
+            background-color: #0d73dd;
+            width: 100%;
+            height: 982px;
+            position: relative;
+            top: 0;
+            margin: 0 auto;
+            color: white;
+            margin-bottom: 86px;
+        }
+        .head{
+            display: flex;
+            position: relative;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            color: white;
+            margin: 46px;
+        }
+        .head a{
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.24px;
+            padding: 5px;
+        }
+        .smart{
+            position:absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 38px;
+            text-align: center;
+        }
+        button{
+            background: #FDFDFD;
+            box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            padding: 16px 40px;
+            margin: 10px;
+        }
+        .note{
+            text-align: center;
+        }
+        .note h1{
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 76px;
+        }
+        .note p{
+            font-size: 24px;
+            font-weight: 400;
+            line-height:34px;
+            padding-top: 0;
+        }
+        .img{
+            display: flex;
+            align-items: center;
+            justify-items: space-between;
+            position: absolute;
+            left: 50%;
+            bottom: -10%;
+            transform: translate(-50%);
+            opacity: 100%;
+            filter: drop-shadow(20px 8px 40px rgba(0, 0, 0, 0.25));
+        }
+        .img img{
+            padding: 10px;
+        }
+        .about{
+            margin: 180px auto;
+            height: auto;
+            width: 80%;
+            text-align: center; 
+        }
+        .over{ 
+            background-position: center;
+            width:50%; 
+            height: 277px;
+            float: left;
+            position: relative;
+            top: 0;
+            left: 0;
+            padding-right: 25px;
+            padding-left: 25px;
+            padding-top: 50px;
+        }
+        .back{
+            position: relative;
+            top: 0;
+            left: 0;
+            border-radius: 16px;
+            background-color: #0d73dd;
+            z-index: -1;
+        }
+        .front{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            filter: drop-shadow(20px 8px 40px rgba(0, 0, 0, 0.25));
+        }
+        .us{
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 86px;
+        }
+        .service{
+            width: 50%;
+            float: left;
+            padding: 25px;
+            margin-top: -100px;
+            text-align: justify;
+        }
+        .flow{
+            margin-top: 260px;
+        }
+        .lorem1{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+        }
+        .servicehead{
+            font-weight: 500;
+font-size: 48px;
+line-height: 57px;
+        }
+        .about::after{
+            clear: left;
+            display: table;
+            content: " ";
+        }
+        .new{
+        text-align: center;
+        }
+        .clients{
+            font-weight: 700;
+font-size: 72px;
+line-height: 85.92px;
+        }
+        .lorem{
+            font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="main">
+        <div class="head">
+        <div class="sub-head">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Testimonials</a>
+        <a href="">Contact</a>
+        </div>
+        <div class="smart">SmartHome</div>
+        <div>
+            <a href="">login</a>
+            <button>Sign up</button>
+        </div>
+        </div>
+        <div class="note"> 
+            <h1>Smart Home <br>Application</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. 
+            Et fames arcu auctor nunc <br>bibendum donec dictum tortor nisi. 
+            At quisque habitasse purus</p>
+        </div>
+        <div class="img">
+            <img src="epa 2.png" width="213.04px;">
+            <img src="epa.png" width="263.48px;">
+            <img src="epa 2.png" width="213.04px;">
+        </div>
+    </section>
+    <section class="about">
+        <div class="us">About Us</div>
+        <div class="flow">
+            <div class="over">
+                <img class="back" src="epa 4.jfif" width="518px" height="277px">
+                <img class="front" src="epa.png" width="264.35" height="569.18px">
+            </div>
+        <div class="service">
+            <h3 class="servicehead">Smart’s Home Smart <br>Services</h3>
+            <p class="lorem1">Lorem ipsum dolor sit amet consectetur. Et fames arcu auctor nunc bibendum donec dictum tortor nisi. At quisque habitasse purus. Lorem ipsum dolor sit amet consectetur. Et fames arcu auctor nunc bibendum donec dictum tortor nisi. </p>
+            <button>Learn more</button>
+        </div>
+        </div>
+    </div>
+    </section>
+    <section class="new">
+        <div class="clients">Our clients</div>
+        <div class="lorem2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nemo aliquam nam saepe quod expedita commodi.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quae perferendis 
+        </div>
+    </section>
+    
+</body>
+</html>
